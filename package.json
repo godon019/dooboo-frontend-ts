@@ -7,7 +7,7 @@
     "dev": "tsc && webpack-dev-server",
     "start": "tsc && webpack-dev-server -d --hot --config webpack.config.js --watch",
     "tsc": "tsc",
-    "test": "jest",
+    "test": "jest --coverage",
     "production": "NODE_ENV=production webpack -p --config webpack.config.prod.js",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
